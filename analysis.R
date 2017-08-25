@@ -8,7 +8,7 @@ library(dplyr)
 library(chron)
 library(classInt)
 
-df <- read.csv("data/201408_trip_data (5).csv", stringsAsFactors = F, check.names = F)
+df <- read.csv("data/201408_trip_data.csv", stringsAsFactors = F, check.names = F)
 
 names(df) <- c("Trip_ID","Duration", "Start_Date", "Start_Station", "Start_Terminal",
                "End_Date", "End_Station", "End_Terminal", "BikeID", "Subscriber_Type",
