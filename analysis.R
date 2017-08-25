@@ -1,6 +1,5 @@
 rm(list=ls())
-#Clicking on source(~) works
-setwd("C:/myWork/U-Exercise")
+setwd("C:/myWork/SFBayProg")
 
 library(sqldf)
 library(lubridate)
